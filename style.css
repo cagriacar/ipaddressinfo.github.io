@@ -1,1 +1,139 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #e0e0e0;
+}
+
+body .container {
+  width: 80%;
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .ip-area {
+  height: 200px;
+  width: 400px;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 30px;
+  -webkit-box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+          box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+body .container .ip-area .btn-ip {
+  margin-top: 15px;
+  padding: 7px 20px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background: #bebebe;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+body .container .ip-area .btn-ip:hover {
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+body .container .ip-area .btn-ip:active {
+  border: 2px solid greenyellow;
+}
+
+body .container .ip-area .ip {
+  margin-top: 30px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+body .container .ip-area .ip #ip-adres {
+  font-weight: normal;
+}
+
+body .container .ip-info {
+  margin-top: 50px;
+  height: auto;
+  width: 400px;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+  border-radius: 30px;
+  -webkit-box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+          box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+body .container .ip-info .btn-info {
+  margin-top: 15px;
+  padding: 7px 20px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background: #bebebe;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+body .container .ip-info .btn-info:hover {
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+body .container .ip-info .btn-info:active {
+  border: 2px solid greenyellow;
+}
+
+body .container .ip-info .details {
+  margin-top: 20px;
+  width: 100%;
+  padding: 20px;
+}
+
+body .container .ip-info .details table thead tr th {
+  border: 1px solid #a7a7a7;
+  padding: 3px 15px;
+  background-color: #c5c5c5;
+}
+
+body .container .ip-info .details table tbody tr:nth-child(even) {
+  background-color: #c5c5c5;
+}
+
+body .container .ip-info .details table tbody tr td {
+  border: 1px solid #a7a7a7;
+  padding: 3px 15px;
+}
+
+body .container .ip-info .details table tbody tr td:first-child {
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
